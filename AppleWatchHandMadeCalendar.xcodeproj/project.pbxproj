@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEF419A91AC059BC00A0F866 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF419A81AC059BC00A0F866 /* main.m */; };
+		DEF419AC1AC059BC00A0F866 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF419AB1AC059BC00A0F866 /* AppDelegate.m */; };
+		DEF419AF1AC059BC00A0F866 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF419AE1AC059BC00A0F866 /* ViewController.m */; };
+		DEF419B21AC059BC00A0F866 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF419B01AC059BC00A0F866 /* Main.storyboard */; };
+		DEF419B41AC059BC00A0F866 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF419B31AC059BC00A0F866 /* Images.xcassets */; };
+		DEF419B71AC059BC00A0F866 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DEF419B51AC059BC00A0F866 /* LaunchScreen.xib */; };
+		DEF419C31AC059BC00A0F866 /* AppleWatchHandMadeCalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF419C21AC059BC00A0F866 /* AppleWatchHandMadeCalendarTests.m */; };
+		DEF419D71AC066AA00A0F866 /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF419D61AC066AA00A0F866 /* InterfaceController.m */; };
+		DEF419DA1AC066AA00A0F866 /* NotificationController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF419D91AC066AA00A0F866 /* NotificationController.m */; };
+		DEF419DD1AC066AA00A0F866 /* GlanceController.m in Sources */ = {isa = PBXBuildFile; fileRef = DEF419DC1AC066AA00A0F866 /* GlanceController.m */; };
+		DEF419DF1AC066AA00A0F866 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF419DE1AC066AA00A0F866 /* Images.xcassets */; };
+		DEF419E31AC066AB00A0F866 /* AppleWatchHandMadeCalendar WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = DEF419E21AC066AB00A0F866 /* AppleWatchHandMadeCalendar WatchKit App.app */; };
+		DEF419EB1AC066AB00A0F866 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEF419E91AC066AB00A0F866 /* Interface.storyboard */; };
+		DEF419ED1AC066AB00A0F866 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEF419EC1AC066AB00A0F866 /* Images.xcassets */; };
+		DEF419F01AC066AB00A0F866 /* AppleWatchHandMadeCalendar WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = DEF419D01AC066AA00A0F866 /* AppleWatchHandMadeCalendar WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DEF419BD1AC059BC00A0F866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEF4199B1AC059BC00A0F866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF419A21AC059BC00A0F866;
+			remoteInfo = AppleWatchHandMadeCalendar;
+		};
+		DEF419E41AC066AB00A0F866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEF4199B1AC059BC00A0F866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF419E11AC066AB00A0F866;
+			remoteInfo = "AppleWatchHandMadeCalendar WatchKit App";
+		};
+		DEF419EE1AC066AB00A0F866 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DEF4199B1AC059BC00A0F866 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DEF419CF1AC066AA00A0F866;
+			remoteInfo = "AppleWatchHandMadeCalendar WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DEF419F71AC066AB00A0F866 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				DEF419F01AC066AB00A0F866 /* AppleWatchHandMadeCalendar WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DEF419A31AC059BC00A0F866 /* AppleWatchHandMadeCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchHandMadeCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF419A71AC059BC00A0F866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF419A81AC059BC00A0F866 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DEF419AA1AC059BC00A0F866 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DEF419AB1AC059BC00A0F866 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DEF419AD1AC059BC00A0F866 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DEF419AE1AC059BC00A0F866 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DEF419B11AC059BC00A0F866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DEF419B31AC059BC00A0F866 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEF419B61AC059BC00A0F866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DEF419BC1AC059BC00A0F866 /* AppleWatchHandMadeCalendarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleWatchHandMadeCalendarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF419C11AC059BC00A0F866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF419C21AC059BC00A0F866 /* AppleWatchHandMadeCalendarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppleWatchHandMadeCalendarTests.m; sourceTree = "<group>"; };
+		DEF419D01AC066AA00A0F866 /* AppleWatchHandMadeCalendar WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "AppleWatchHandMadeCalendar WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF419D31AC066AA00A0F866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF419D41AC066AA00A0F866 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		DEF419D51AC066AA00A0F866 /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
+		DEF419D61AC066AA00A0F866 /* InterfaceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InterfaceController.m; sourceTree = "<group>"; };
+		DEF419D81AC066AA00A0F866 /* NotificationController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NotificationController.h; sourceTree = "<group>"; };
+		DEF419D91AC066AA00A0F866 /* NotificationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NotificationController.m; sourceTree = "<group>"; };
+		DEF419DB1AC066AA00A0F866 /* GlanceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GlanceController.h; sourceTree = "<group>"; };
+		DEF419DC1AC066AA00A0F866 /* GlanceController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GlanceController.m; sourceTree = "<group>"; };
+		DEF419DE1AC066AA00A0F866 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DEF419E21AC066AB00A0F866 /* AppleWatchHandMadeCalendar WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppleWatchHandMadeCalendar WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEF419E81AC066AB00A0F866 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DEF419EA1AC066AB00A0F866 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		DEF419EC1AC066AB00A0F866 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DEF419A01AC059BC00A0F866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF419B91AC059BC00A0F866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF419CD1AC066AA00A0F866 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DEF4199A1AC059BB00A0F866 = {
+			isa = PBXGroup;
+			children = (
+				DEF419A51AC059BC00A0F866 /* AppleWatchHandMadeCalendar */,
+				DEF419BF1AC059BC00A0F866 /* AppleWatchHandMadeCalendarTests */,
+				DEF419D11AC066AA00A0F866 /* AppleWatchHandMadeCalendar WatchKit Extension */,
+				DEF419E61AC066AB00A0F866 /* AppleWatchHandMadeCalendar WatchKit App */,
+				DEF419A41AC059BC00A0F866 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DEF419A41AC059BC00A0F866 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DEF419A31AC059BC00A0F866 /* AppleWatchHandMadeCalendar.app */,
+				DEF419BC1AC059BC00A0F866 /* AppleWatchHandMadeCalendarTests.xctest */,
+				DEF419D01AC066AA00A0F866 /* AppleWatchHandMadeCalendar WatchKit Extension.appex */,
+				DEF419E21AC066AB00A0F866 /* AppleWatchHandMadeCalendar WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DEF419A51AC059BC00A0F866 /* AppleWatchHandMadeCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				DEF419AA1AC059BC00A0F866 /* AppDelegate.h */,
+				DEF419AB1AC059BC00A0F866 /* AppDelegate.m */,
+				DEF419AD1AC059BC00A0F866 /* ViewController.h */,
+				DEF419AE1AC059BC00A0F866 /* ViewController.m */,
+				DEF419B01AC059BC00A0F866 /* Main.storyboard */,
+				DEF419B31AC059BC00A0F866 /* Images.xcassets */,
+				DEF419B51AC059BC00A0F866 /* LaunchScreen.xib */,
+				DEF419A61AC059BC00A0F866 /* Supporting Files */,
+			);
+			path = AppleWatchHandMadeCalendar;
+			sourceTree = "<group>";
+		};
+		DEF419A61AC059BC00A0F866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEF419A71AC059BC00A0F866 /* Info.plist */,
+				DEF419A81AC059BC00A0F866 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEF419BF1AC059BC00A0F866 /* AppleWatchHandMadeCalendarTests */ = {
+			isa = PBXGroup;
+			children = (
+				DEF419C21AC059BC00A0F866 /* AppleWatchHandMadeCalendarTests.m */,
+				DEF419C01AC059BC00A0F866 /* Supporting Files */,
+			);
+			path = AppleWatchHandMadeCalendarTests;
+			sourceTree = "<group>";
+		};
+		DEF419C01AC059BC00A0F866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEF419C11AC059BC00A0F866 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEF419D11AC066AA00A0F866 /* AppleWatchHandMadeCalendar WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				DEF419D51AC066AA00A0F866 /* InterfaceController.h */,
+				DEF419D61AC066AA00A0F866 /* InterfaceController.m */,
+				DEF419D81AC066AA00A0F866 /* NotificationController.h */,
+				DEF419D91AC066AA00A0F866 /* NotificationController.m */,
+				DEF419DB1AC066AA00A0F866 /* GlanceController.h */,
+				DEF419DC1AC066AA00A0F866 /* GlanceController.m */,
+				DEF419DE1AC066AA00A0F866 /* Images.xcassets */,
+				DEF419D21AC066AA00A0F866 /* Supporting Files */,
+			);
+			path = "AppleWatchHandMadeCalendar WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		DEF419D21AC066AA00A0F866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEF419D31AC066AA00A0F866 /* Info.plist */,
+				DEF419D41AC066AA00A0F866 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DEF419E61AC066AB00A0F866 /* AppleWatchHandMadeCalendar WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				DEF419E91AC066AB00A0F866 /* Interface.storyboard */,
+				DEF419EC1AC066AB00A0F866 /* Images.xcassets */,
+				DEF419E71AC066AB00A0F866 /* Supporting Files */,
+			);
+			path = "AppleWatchHandMadeCalendar WatchKit App";
+			sourceTree = "<group>";
+		};
+		DEF419E71AC066AB00A0F866 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DEF419E81AC066AB00A0F866 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DEF419A21AC059BC00A0F866 /* AppleWatchHandMadeCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF419C61AC059BC00A0F866 /* Build configuration list for PBXNativeTarget "AppleWatchHandMadeCalendar" */;
+			buildPhases = (
+				DEF4199F1AC059BC00A0F866 /* Sources */,
+				DEF419A01AC059BC00A0F866 /* Frameworks */,
+				DEF419A11AC059BC00A0F866 /* Resources */,
+				DEF419F71AC066AB00A0F866 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEF419EF1AC066AB00A0F866 /* PBXTargetDependency */,
+			);
+			name = AppleWatchHandMadeCalendar;
+			productName = AppleWatchHandMadeCalendar;
+			productReference = DEF419A31AC059BC00A0F866 /* AppleWatchHandMadeCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DEF419BB1AC059BC00A0F866 /* AppleWatchHandMadeCalendarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF419C91AC059BC00A0F866 /* Build configuration list for PBXNativeTarget "AppleWatchHandMadeCalendarTests" */;
+			buildPhases = (
+				DEF419B81AC059BC00A0F866 /* Sources */,
+				DEF419B91AC059BC00A0F866 /* Frameworks */,
+				DEF419BA1AC059BC00A0F866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEF419BE1AC059BC00A0F866 /* PBXTargetDependency */,
+			);
+			name = AppleWatchHandMadeCalendarTests;
+			productName = AppleWatchHandMadeCalendarTests;
+			productReference = DEF419BC1AC059BC00A0F866 /* AppleWatchHandMadeCalendarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DEF419CF1AC066AA00A0F866 /* AppleWatchHandMadeCalendar WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF419F41AC066AB00A0F866 /* Build configuration list for PBXNativeTarget "AppleWatchHandMadeCalendar WatchKit Extension" */;
+			buildPhases = (
+				DEF419CC1AC066AA00A0F866 /* Sources */,
+				DEF419CD1AC066AA00A0F866 /* Frameworks */,
+				DEF419CE1AC066AA00A0F866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DEF419E51AC066AB00A0F866 /* PBXTargetDependency */,
+			);
+			name = "AppleWatchHandMadeCalendar WatchKit Extension";
+			productName = "AppleWatchHandMadeCalendar WatchKit Extension";
+			productReference = DEF419D01AC066AA00A0F866 /* AppleWatchHandMadeCalendar WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		DEF419E11AC066AB00A0F866 /* AppleWatchHandMadeCalendar WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DEF419F11AC066AB00A0F866 /* Build configuration list for PBXNativeTarget "AppleWatchHandMadeCalendar WatchKit App" */;
+			buildPhases = (
+				DEF419E01AC066AB00A0F866 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "AppleWatchHandMadeCalendar WatchKit App";
+			productName = "AppleWatchHandMadeCalendar WatchKit App";
+			productReference = DEF419E21AC066AB00A0F866 /* AppleWatchHandMadeCalendar WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DEF4199B1AC059BC00A0F866 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = just1factory;
+				TargetAttributes = {
+					DEF419A21AC059BC00A0F866 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DEF419BB1AC059BC00A0F866 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = DEF419A21AC059BC00A0F866;
+					};
+					DEF419CF1AC066AA00A0F866 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					DEF419E11AC066AB00A0F866 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = DEF4199E1AC059BC00A0F866 /* Build configuration list for PBXProject "AppleWatchHandMadeCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DEF4199A1AC059BB00A0F866;
+			productRefGroup = DEF419A41AC059BC00A0F866 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DEF419A21AC059BC00A0F866 /* AppleWatchHandMadeCalendar */,
+				DEF419BB1AC059BC00A0F866 /* AppleWatchHandMadeCalendarTests */,
+				DEF419CF1AC066AA00A0F866 /* AppleWatchHandMadeCalendar WatchKit Extension */,
+				DEF419E11AC066AB00A0F866 /* AppleWatchHandMadeCalendar WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DEF419A11AC059BC00A0F866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF419B21AC059BC00A0F866 /* Main.storyboard in Resources */,
+				DEF419B71AC059BC00A0F866 /* LaunchScreen.xib in Resources */,
+				DEF419B41AC059BC00A0F866 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF419BA1AC059BC00A0F866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF419CE1AC066AA00A0F866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF419DF1AC066AA00A0F866 /* Images.xcassets in Resources */,
+				DEF419E31AC066AB00A0F866 /* AppleWatchHandMadeCalendar WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF419E01AC066AB00A0F866 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF419EB1AC066AB00A0F866 /* Interface.storyboard in Resources */,
+				DEF419ED1AC066AB00A0F866 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DEF4199F1AC059BC00A0F866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF419AF1AC059BC00A0F866 /* ViewController.m in Sources */,
+				DEF419AC1AC059BC00A0F866 /* AppDelegate.m in Sources */,
+				DEF419A91AC059BC00A0F866 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF419B81AC059BC00A0F866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF419C31AC059BC00A0F866 /* AppleWatchHandMadeCalendarTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEF419CC1AC066AA00A0F866 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEF419DA1AC066AA00A0F866 /* NotificationController.m in Sources */,
+				DEF419D71AC066AA00A0F866 /* InterfaceController.m in Sources */,
+				DEF419DD1AC066AA00A0F866 /* GlanceController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DEF419BE1AC059BC00A0F866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEF419A21AC059BC00A0F866 /* AppleWatchHandMadeCalendar */;
+			targetProxy = DEF419BD1AC059BC00A0F866 /* PBXContainerItemProxy */;
+		};
+		DEF419E51AC066AB00A0F866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEF419E11AC066AB00A0F866 /* AppleWatchHandMadeCalendar WatchKit App */;
+			targetProxy = DEF419E41AC066AB00A0F866 /* PBXContainerItemProxy */;
+		};
+		DEF419EF1AC066AB00A0F866 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DEF419CF1AC066AA00A0F866 /* AppleWatchHandMadeCalendar WatchKit Extension */;
+			targetProxy = DEF419EE1AC066AB00A0F866 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DEF419B01AC059BC00A0F866 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF419B11AC059BC00A0F866 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DEF419B51AC059BC00A0F866 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF419B61AC059BC00A0F866 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		DEF419E91AC066AB00A0F866 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DEF419EA1AC066AB00A0F866 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DEF419C41AC059BC00A0F866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DEF419C51AC059BC00A0F866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DEF419C71AC059BC00A0F866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppleWatchHandMadeCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DEF419C81AC059BC00A0F866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AppleWatchHandMadeCalendar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DEF419CA1AC059BC00A0F866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppleWatchHandMadeCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleWatchHandMadeCalendar.app/AppleWatchHandMadeCalendar";
+			};
+			name = Debug;
+		};
+		DEF419CB1AC059BC00A0F866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AppleWatchHandMadeCalendarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleWatchHandMadeCalendar.app/AppleWatchHandMadeCalendar";
+			};
+			name = Release;
+		};
+		DEF419F21AC066AB00A0F866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = AppleWatchHandMadeCalendar_WatchKit_Extension;
+				INFOPLIST_FILE = "AppleWatchHandMadeCalendar WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		DEF419F31AC066AB00A0F866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = AppleWatchHandMadeCalendar_WatchKit_Extension;
+				INFOPLIST_FILE = "AppleWatchHandMadeCalendar WatchKit App/Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		DEF419F51AC066AB00A0F866 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "AppleWatchHandMadeCalendar WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DEF419F61AC066AB00A0F866 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "AppleWatchHandMadeCalendar WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DEF4199E1AC059BC00A0F866 /* Build configuration list for PBXProject "AppleWatchHandMadeCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF419C41AC059BC00A0F866 /* Debug */,
+				DEF419C51AC059BC00A0F866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DEF419C61AC059BC00A0F866 /* Build configuration list for PBXNativeTarget "AppleWatchHandMadeCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF419C71AC059BC00A0F866 /* Debug */,
+				DEF419C81AC059BC00A0F866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEF419C91AC059BC00A0F866 /* Build configuration list for PBXNativeTarget "AppleWatchHandMadeCalendarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF419CA1AC059BC00A0F866 /* Debug */,
+				DEF419CB1AC059BC00A0F866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEF419F11AC066AB00A0F866 /* Build configuration list for PBXNativeTarget "AppleWatchHandMadeCalendar WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF419F21AC066AB00A0F866 /* Debug */,
+				DEF419F31AC066AB00A0F866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DEF419F41AC066AB00A0F866 /* Build configuration list for PBXNativeTarget "AppleWatchHandMadeCalendar WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DEF419F51AC066AB00A0F866 /* Debug */,
+				DEF419F61AC066AB00A0F866 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DEF4199B1AC059BC00A0F866 /* Project object */;
+}
